@@ -1,0 +1,9 @@
+#!/bin/dialect -def
+
+REGEX := '/(([^\\]|\\[\S\s])*)/'
+
+s/
+
+/regex/ -> /regex/g/a/
+
+s/(?:[^\\])(;.*)//g

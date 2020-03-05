@@ -1,0 +1,10 @@
+#!/bin/dialect -use comment.dld -out .dld
+
+; this is a dialect file that compiles to dialect defintion file
+; this compilation just removes the comments
+
+#!/bin/dialect -def
+
+dep comment.dld
+
+' 'a
